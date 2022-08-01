@@ -12,6 +12,7 @@ function Portfolio() {
             <a
               href="https://www.behance.net/gallery/148079455/Kaelle"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="card">
                 <div className="card-image1" />
@@ -34,6 +35,7 @@ function Portfolio() {
             <a
               href="https://www.behance.net/gallery/148258681/UBOOK"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="card">
                 <div className="card-image2" />
@@ -56,6 +58,7 @@ function Portfolio() {
             <a
               href="https://www.behance.net/gallery/133641659/Solar-Drop"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="card">
                 <div className="card-image3" />
@@ -77,6 +80,7 @@ function Portfolio() {
             <a
               href="https://www.behance.net/gallery/133504131/Logo-concept-Art-of-code"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="card">
                 <div className="card-image4" />

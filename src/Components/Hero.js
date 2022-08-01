@@ -52,8 +52,8 @@ function Hero({
                   {description}
                 </p>
                 <a
-                  href="Fares Mansouri CV_.pdf"
-                  download="Fares Mansouri CV_.pdf"
+                  href="Fares Mansouri CV.pdf"
+                  download="Fares Mansouri CV.pdf"
                 >
                   <Button buttonSize="btn--wide" buttonColor="blue">
                     {buttonLabel}

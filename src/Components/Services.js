@@ -1,8 +1,9 @@
 import React from "react";
 import { Button } from "./Button";
-import "./Hero_a.css";
+import "./Services.css";
+import { Link } from "react-router-dom";
 
-function Hero({
+function Services({
   lightBg,
   topLine,
   lightText,
@@ -18,6 +19,7 @@ function Hero({
     <>
       <div
         className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
+        id="service"
       >
         <div className="container">
           <div
@@ -42,14 +44,11 @@ function Hero({
                 >
                   {description}
                 </p>
-                <a
-                  href="Fares Mansouri CV_.pdf"
-                  download="Fares Mansouri CV_.pdf"
-                >
+                <Link to="/footer">
                   <Button buttonSize="btn--wide" buttonColor="blue">
                     {buttonLabel}
                   </Button>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col">
@@ -64,4 +63,4 @@ function Hero({
   );
 }
 
-export default Hero;
+export default Services;

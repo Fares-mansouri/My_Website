@@ -2,15 +2,13 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import "./Footer.css";
-import { Button } from "../../Button";
 import { Link } from "react-router-dom";
 import { CgDesignmodo } from "react-icons/cg";
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
   FaLinkedin,
+  FaBehanceSquare,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -47,11 +45,11 @@ const Footer = () => {
           <StyledContactForm>
             <form ref={form} onSubmit={sendEmail}>
               <label>Name</label>
-              <input type="text" name="user_name" />
+              <input type="text" name="user_name" required />
               <label>Email</label>
-              <input type="email" name="user_email" />
+              <input type="email" name="user_email" required />
               <label>Message</label>
-              <textarea name="message" />
+              <textarea name="message" required />
               <input type="submit" value="Send" />
             </form>
           </StyledContactForm>
@@ -70,7 +68,7 @@ const Footer = () => {
           <div className="social-icons">
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.facebook.com/MansouriPHOTOSHOP"}
               target="_blank"
               aria-label="Facebook"
             >
@@ -78,7 +76,7 @@ const Footer = () => {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.instagram.com/fares_mansouri/"}
               target="_blank"
               aria-label="Instagram"
             >
@@ -90,19 +88,12 @@ const Footer = () => {
               target="_blank"
               aria-label="Youtube"
             >
-              <FaYoutube />
+              <FaBehanceSquare />
             </Link>
+
             <Link
               className="social-icon-link"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <FaTwitter />
-            </Link>
-            <Link
-              className="social-icon-link"
-              to="//google.com"
+              to={"//www.linkedin.com/in/fares-mansouri-43307816b/"}
               target="_blank"
               aria-label="LinkedIn"
             >

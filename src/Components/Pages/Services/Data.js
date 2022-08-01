@@ -21,7 +21,7 @@ export const homeObjThree = {
   headline: "I can help you with",
   description:
     "Defining requirements, visualizing and creating graphics including illustrations, logos, layouts and photos. A wide range of creative Graphic Design Services at an insanely affordable price.Branding identity and logo creation, image restoration and websites and mobile apps templates",
-  buttonLabel: "Get service",
+  buttonLabel: "Start Now",
   imgStart: "start",
   img: "images/web@5x.png",
   alt: "Services",
